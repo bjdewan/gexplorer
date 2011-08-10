@@ -1,10 +1,23 @@
-//"GExplorer to explore "Places"
-//written by: Paul van Dinther
+//   "GExplorer to explore "Places"
+//   written by: Paul van Dinther
 //            Dinther Product Design
 //            Software development and specialists in simulation
 //            email: vandinther@gmail.com
-//GExplorer is a 3D navigation solution to smoothly explore 3D space.
-//Copy right 2009 Dinther Product Design Ltd
+//   GExplorer is a 3D navigation solution to smoothly explore 3D space.
+//
+//   Copyright 2009 Dinther Product Design Ltd
+//
+//   Licensed under the Apache License, Version 2.0 (the "License");
+//   you may not use this file except in compliance with the License.
+//   You may obtain a copy of the License at
+//
+//       http://www.apache.org/licenses/LICENSE-2.0
+//
+//   Unless required by applicable law or agreed to in writing, software
+//   distributed under the License is distributed on an "AS IS" BASIS,
+//   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+//   See the License for the specific language governing permissions and
+//   limitations under the License.
     
 var PIA_metersToLocalLat = 0.0000089992800575953923686105111591073; //multiply a meter with this to get a delta latitude (1/60 of a degree is 1852 meters)
 var PIA_degreesToRad = 0.017453292519943; //multiply with this to get angle in radians
